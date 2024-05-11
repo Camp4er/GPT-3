@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import { Brand, CTA, Navbar } from './Components';
-import { Footer, Blog, Possibility, Features, whatGPT3, Header } from './Container';
+import { Footer, Blog, Possibility, Features, Header } from './Container'; // Removed 'whatGPT3'
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
         <Header />
       </div>
       <Brand />
-      <whatGPT3 />
+      {/* Removed <whatGPT3 /> */}
       <Features />
       <Possibility />
       <CTA />
